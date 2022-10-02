@@ -1,2 +1,3 @@
-# homework-one
-The purpose of this assignment was to create a small webpage utilizing the BEM principles as mentioned in the linked articles. This site contains four pages all accessible from the navbar at the top. The page is based completely on Curseforge's website.
+# homework-four
+## https://in-info-web4.informatics.iupui.edu/~logcdoug/N315/homework-four/
+The purpose of this assignment was to create a signup form with alerts that appear on screen when information is missing and when the form is sucessfully submitted. There are two pages: home and signup which use sass for styling.
