@@ -1,0 +1,40 @@
+.signup {
+    min-height: 700px;
+    background-image: linear-gradient(rgba($site-black,.75), rgba($site-black,.75)), url(../images/house-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .signup-title {
+        color: $site-white;
+        font-size: 50px;
+        margin-top: 50px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        label {
+            font-family: sans-serif;
+            color: #fff;
+        }
+
+        input {
+            height: 20px;
+        }
+
+        #submit {
+            height: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-style: none;
+        }
+    }
+}

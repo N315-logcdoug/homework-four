@@ -1,0 +1,48 @@
+.comparison {
+    min-height: 500px;
+    background-color: $site-gray;
+    display: flex;
+
+    .comparison-side {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:50px;
+
+        .comparison-img{
+            width: 500px;
+            height: 300px;
+            background-color: palegoldenrod;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            filter: drop-shadow(5px 5px 5px $site-black);
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .comparison-title {
+            font-size: 25px;
+            margin-top: 20px;
+            color: $site-white;
+        }
+
+        .comparison-body {
+            width: 400px;
+            color: $site-white;
+            text-align: center;
+            line-height: 150%;
+        }
+    }
+
+}
+
+@media all and (max-width: 1126px){
+    .comparison {
+        flex-direction: column;
+        align-items: center;
+    }
+}
